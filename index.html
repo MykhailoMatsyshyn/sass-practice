@@ -4,26 +4,55 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/sass.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson 07</title>
+    <title>Lesson 09</title>
     <script type="module" crossorigin src="/sass-practice/assets/index-59f321f8.js"></script>
     <link rel="stylesheet" href="/sass-practice/assets/index.css">
   </head>
 
   <body>
-    <section class="section">
-      <h1 class="title">Page title</h1>
-      <p class="text">
-        Page text - Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Qui architecto voluptas natus quos neque itaque. Perspiciatis, fugiat
-        deleniti reprehenderit similique accusantium corrupti rem aspernatur
-        architecto qui temporibus culpa vero unde!
-      </p>
-    </section>
+    <div class="notification notification-primary">
+      <svg class="notification-icon" width="20" height="20">
+        <use href="./src/img/icons.svg#icon-primary"></use>
+      </svg>
 
-    <button class="button" type="button">
-      <svg class="button-icon"></svg>
-      <span class="button-label">Замовити</span>
-    </button>
+      <p class="notification-text">Primary</p>
+
+      <button class="notification-btn" aria-label="Close button">
+        <svg class="notification-btn-icon" width="16" height="16">
+          <use href="./src/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="notification notification-success">
+      <svg class="notification-icon" width="20" height="20">
+        <use href="./src/img/icons.svg#igon-check"></use>
+      </svg>
+
+      <p class="notification-text">Success</p>
+
+      <button class="notification-btn" aria-label="Close button">
+        <svg class="notification-btn-icon" width="16" height="16">
+          |
+          <use href="./src/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="notification notification-info">
+      <svg class="notification-icon" width="20" height="20">
+        <use href="./src/img/icons.svg#igon-check"></use>
+      </svg>
+
+      <p class="notification-text">Info</p>
+
+      <button class="notification-btn" aria-label="Close button">
+        <svg class="notification-btn-icon" width="16" height="16">
+          |
+          <use href="./src/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
 
     
   </body>
