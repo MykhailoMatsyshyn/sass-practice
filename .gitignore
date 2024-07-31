@@ -23,4 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-./src/css/--examples--
+# Hide --examples-- directory
+src/scss/--examples--
